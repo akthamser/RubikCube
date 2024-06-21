@@ -1,0 +1,16 @@
+#version 330 core
+out vec4 FragColor;
+  
+
+in vec3 color;
+in vec2 TexCoord;
+flat in int face;
+
+uniform int faceMask[6];
+uniform sampler2D texture1;
+
+void main()
+{
+    
+    FragColor =   vec4( faceMask[face] * vec3(mix(  vec4( color , 1.0f),  texture(texture1,TexCoord),0.3f)),1)   ;
+}

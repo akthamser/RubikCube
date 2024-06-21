@@ -1,0 +1,9 @@
+
+#version 330 core
+out vec4 FragColor;
+in vec3 vColor;
+uniform float ColorModifier;
+void main()
+{
+   FragColor = vec4(vColor.x - ColorModifier, vColor.y + ColorModifier, -vColor.z + ColorModifier, 1.0f);
+};

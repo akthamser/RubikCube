@@ -1,0 +1,76 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (x64\Release\) contains files shared from another project (DEngine.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Source.cpp
+C:\DEV\RubikCube\DEngine\Source.cpp(194,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\DEV\RubikCube\DEngine\Source.cpp(313,19): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\DEV\RubikCube\DEngine\Source.cpp(314,19): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\DEV\RubikCube\DEngine\Source.cpp(315,19): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\DEV\RubikCube\DEngine\Source.cpp(341,19): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\DEV\RubikCube\DEngine\Source.cpp(342,19): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\DEV\RubikCube\DEngine\Source.cpp(343,19): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\DEV\RubikCube\DEngine\Source.cpp(364,19): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\DEV\RubikCube\DEngine\Source.cpp(365,19): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\DEV\RubikCube\DEngine\Source.cpp(366,19): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\DEV\RubikCube\DEngine\Source.cpp(484,23): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\DEV\RubikCube\DEngine\Source.cpp(485,23): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\DEV\RubikCube\DEngine\Source.cpp(486,23): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\DEV\RubikCube\DEngine\Source.cpp(516,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\DEV\RubikCube\DEngine\Source.cpp(517,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\DEV\RubikCube\DEngine\Source.cpp(521,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\DEV\RubikCube\DEngine\Source.cpp(522,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\DEV\RubikCube\DEngine\Source.cpp(523,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\DEV\RubikCube\DEngine\Source.cpp(524,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+LINK : warning LNK4098: defaultlib 'MSVCRTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+  1 of 441 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    8 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  DEngine.vcxproj -> C:\DEV\RubikCube\x64\Release\RubikCube.exe
